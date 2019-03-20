@@ -17,6 +17,7 @@
   "homepage": "https://github.com/SimarpreeetKaur/assignmenttwo#readme",
   "description": "",
   "dependencies": {
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.0",
+    "node": "^11.12.0"
   }
 }

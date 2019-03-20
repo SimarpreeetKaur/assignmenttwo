@@ -1,33 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Flex Properties</title>
 
-    <link rel="stylesheet" href="css/reboot.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>assignmenttwo</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
 
-  <body>
+<body id="top">
+  <nav class="site-nav">
+    <ul class="icon-view">
+      <li id="mobile-menu-button">
+        <img src="img/mobile-menu-icon.svg" alt="mobile menu open button">
+      </li>
+      <li id="options-button" class="options-menu" class="options-menu">
+        <img src="img/options.svg" alt="">
+      </li>
+    </ul>
+  </nav>
+  <aside id="menu-panel" class="menu-panel">
+    <ul class="mobile-links">
+      <li class="mobile-link"><a href="#about">skills</a> </li>
+      <li class="mobile-link"><a href="#facts">facts</a> </li>
+      <li class="mobile-link"><a href="#experience">experience</a> </li>
+      <li class="mobile-link"><a href="#contact">contact</a> </li>
+    </ul>
+  </aside>
+  <header class="page-header">
+    <div class="intro">
+      <h3>Hello, I'm Simar</h3>
+      <h1>UI &amp; UX <span class="designer">Designer</span> </h1>
+    </div>
+    <div class="profile">
+      <img src="img/profile.JPG" alt="avatar">
+      <div class="buttons">
+        <a  class="button" href="#">Hire me</a>
+        <a  class="button" href="#">Download CV</a>
+      </div>
+    </div>
+    
+  </header>
+  <main>
+    
+    <section id="about" class="content">
+      <div class="about-skill">
+        <div class="about">
+          <h1>SKILLS</h1>
+          <h3>WHO AM I?</h3>
+        </div>
 
-      <nav class="site-nav">
-        <ul class="icon-view">
-          <li> <i class="fas fa-bars"></i></li>
-          <li>brand</li>
-          <li><i class="fas fa-cog"></i></li>
-        </ul>
-        <ul class="list-view">
-          <li>some</li>
-          <li>type</li>
-          <li>of</li>
-          <li>site</li>
-          <li>nav</li>
-        </ul>
-      </nav>
+        <div class="skills">
+          <h4>Photoshop</h4>
+          <div class="progress">
+            <div class="bar bar-1"></div>
+          </div><br>
+          <h4>Illustrator</h4>
+          <div class="progress">
+            <div class="bar bar-2"></div>
+          </div><br>
+          <h4>UI design</h4>
+          <div class="progress">
+            <div class="bar bar-3"></div>
+          </div><br>
+          <h4>Web development</h4>
+          <div class="progress">
+            <div class="bar bar-4"></div>
+          </div><br>
+        </div>
+    </div>
       
-  </body>
+    </section>
+    <section id="facts" class="content">
+      
+      
+        <h1>FACTS</h1>
+        <div class="facts">
+        <div class="fact">
+          <h2>4793</h2>
+          <p>Team Energy</p>
+        </div>
+        <div class="fact">
+          <h2>20987</h2>
+          <p>Lines of Code</p>
+        </div>
+        <div class="fact">
+          <h2>135</h2>
+          <p>Cool Projects</p>
+        </div>
+        <div class="fact">
+          <h2>4793</h2>
+          <p>Coffee Drinks</p>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="content">
+        <h1>EXPERIENCE</h1>
+        <div class="timeline">
+            <div class="container left">
+              <div class="exp">
+                <h2>2017</h2>
+                <p>Lorem ipsum..</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="exp">
+                <h2>2016</h2>
+                <p>Lorem ipsum..</p>
+              </div>
+            </div>
+            <div class="container left">
+                <div class="exp">
+                  <h2>2017</h2>
+                  <p>Lorem ipsum..</p>
+                </div>
+              </div>
+              <div class="container right">
+                <div class="exp">
+                  <h2>2016</h2>
+                  <p>Lorem ipsum..</p>
+                </div>
+              </div>
+          </div>
+    </section>
+    <section id="contact" class="content">
+      <h1>GET IN TOUCH</h1>
+        <div class="form">
+            <form action="#">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">email</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your email..">
+                </div>
+              </div>
+              <div class="row">
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Message</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+    </section>
+  </main>
+  <footer>
+  </footer>
+
+  <script async src="js/libs/gsap/TweenMax.min.js"></script>
+  <script async src="js/libs/gsap/plugins/ScrollToPlugin.min.js"></script>
+  <script async src="js/index.js"></script>
+
+</body>
+
 </html>
